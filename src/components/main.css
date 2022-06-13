@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+::selection{
+    background-color: #c0c2bd;
+}
+.image-logo{
+    margin-left: 2%;
+    width: 4vw;
+}
+.title-container{
+    margin-left: 14%;
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+    color: #e6aa9f;
+    font-size: 50px;
+}
+h4{
+    margin-left: 2%;
+    font-family: 'Raleway', sans-serif;
+    color: #29251c;
+}
+.container{
+    margin-left: 30%;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 50px;
+    padding: 10px;
+}
+.box-dogs{
+    width: 508px;
+    height: 358px;
+    background-color: #e7ddd3;
+    border: #9c9994 4px solid;
+}
+.Dogs-Img{
+    width: 500px;
+    height: 350px;
+}
+.bttn{
+    position: relative;
+    left: 6%;
+    top: 10%;
+    background-color: #29251c;
+    color:#F0F0F0;
+    border: none;
+    width: 40%;
+    height: 10%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Responsivo */
+
+@media screen and (max-width: 800px){
+    *{
+        background-color: #f2f2f2;
+    }
+.image-logo{
+    margin-left: 4%;
+    width: 10vw;
+}
+h1{
+    font-family: 'Oswald', sans-serif;
+    color: #e6aa9f;
+    font-size: 6vw;
+}
+h4{
+    font-family: 'Raleway', sans-serif;
+    color: #29251c;
+}
+.container{
+    position: relative;
+    top: 15vh;
+    right: 24vw;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 30px;
+}
+.Dogs-Img{
+    width:100%;
+    height: 100%;
+}
+.box-dogs{
+    width: 85vw;
+    height: 80%;
+    background-color: #e7ddd3;
+    border: #9c9994 4px solid;
+}
+.bttn{
+    position: relative;
+    top: 4%;
+    left: 25%;
+    background-color: #29251c;
+    color:#F0F0F0;
+    border: none;
+    width: 40%;
+    height: 12%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+}
